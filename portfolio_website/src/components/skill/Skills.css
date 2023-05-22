@@ -1,0 +1,13 @@
+.progress-bar{
+    align-items: center;
+    /* box-shadow: 1px 1px 12px 1px #888888;
+    width: 50%;
+    margin: auto;
+    border-radius: 14px; */
+}
+.progress-bar-percent{
+    color: green;
+}
+#Skills{
+    min-height: 100vh;
+}

@@ -1,0 +1,30 @@
+.contact{
+    min-height: 100vh;
+}
+.form-control{
+    background: #221b1b;
+    color: white;
+    border: none;
+    border-radius: 0;
+}
+ul {
+    list-style: none;
+}
+.personalContactInfo {
+    align-items: center;
+    display: flex;
+}
+.infoIcon {
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+}
+.mediaWrap {
+    border-left: 2px solid orange;
+}
+.con-img{
+    background-image: url("pexels-luis-la-8715128.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

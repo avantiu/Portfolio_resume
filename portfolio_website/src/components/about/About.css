@@ -1,0 +1,25 @@
+/* #About {
+    height: 100vh;
+} */
+.about{
+    min-height: 100vh;
+}
+
+.cards{
+    height: 7vh;
+    align-items: center !important;
+}
+
+.card:hover{
+    transition: all 1s;
+    background-color: orange !important;
+    transform: scale(1.1);
+}
+
+@media (min-width:769px) and (max-width:1440px){
+    .cards{
+        height: 10vh;
+        align-items: center;
+        
+    }
+}

@@ -1,0 +1,34 @@
+.home{
+    min-height: 100vh;
+    background-image: url("pexels-filippo-bergamaschi-986774.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.download:hover{
+    transition: all 1s;
+}
+
+.inner>h1{
+    animation: slide_up 1.4s ease;
+}
+
+.inner>h4{
+    animation: slide_up 2.1s ease;
+}
+
+.inner>button{
+    animation: slide_up 2.4s ease;
+}
+
+@keyframes slide_up {
+    0%{
+        transform: translateY(250px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
